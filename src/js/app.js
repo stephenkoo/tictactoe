@@ -44,7 +44,7 @@ $('.column').on('click', function() {
 		return;
 	} else if (winCheck(1) === true || winCheck(2) === true) {
 		$('.game-message')
-			.empty().append('<h1>OI! STOP THAT YOU CHEEKY ARSEHAT. THE OTHER DICKMUNCHER\'S ALREADY WON. I MEAN SERIOUSLY YOU FOOKIN MILLENIALS. ALWAYS WANTING TO DO THINGS YOUR WAY. WOT? U FCKEN\' WOT M8? U AVIN A GIGGLE THERE? YOU ARE 1 FUCKING CHEEKY KUNT MATE I\'LL BASH YE FOOKIN EAD IN I SWARE ON ME MUM I\'LL GET ME BREVS & WE\'LL PUT YOU IN THE FOKEN GROUND. FOCKEN\' ARSEHAT.</h1>');
+			.empty().append('<h1>OI! STOP THAT YOU CHEEKY ARSEHAT. THE OTHER DICKMUNCHER\'S ALREADY WON. I MEAN SERIOUSLY YOU FOOKIN MILLENIALS. ALWAYS WANTING TO DO THINGS YOUR WAY. WOT? U FCKEN\' WOT M8? U AVIN A GIGGLE THERE? YOU ARE 1 FUCKING CHEEKY KUNT MATE I\'LL BASH YE FOOKIN EAD IN I SWARE ON ME MUM I\'LL GET ME BREVS & WE\'LL PUT YOU IN THE FOKEN GROUND. <br> <br> fockn\' arsehat.</h1>');
 		return;
 	// If turn was even number (e.g. 0), the click was Player 1's.
 	// Add move to array, add player's symbol to column, tell other player it's their turn.
